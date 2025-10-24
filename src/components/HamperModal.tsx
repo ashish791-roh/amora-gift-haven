@@ -28,7 +28,7 @@ const HamperModal = ({ hamper, open, onOpenChange }: HamperModalProps) => {
 
   const handleBuyNow = () => {
     const message = `Hi! I'd like to order the ${hamper.name} hamper (£${hamper.price})`;
-    const url = `https://wa.me/918168080791?text=${encodeURIComponent(message)}`;
+    const url = getWhatsAppUrl("918168080791", message);
     window.open(url, '_blank');
   };
 
