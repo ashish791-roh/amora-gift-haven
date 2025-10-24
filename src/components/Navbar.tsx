@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Gift, LogOut } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useAuth } from '@/contexts/AuthContext';
@@ -6,6 +6,15 @@ import logo from '@/assets/logo.png';
 
 const Navbar = () => {
   const { user, logout } = useAuth();
+  const navigate = useNavigate();
+
+  const handleContactClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    navigate('/');
+    setTimeout(() => {
+      document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+    }, 100);
+  };
 
   return (
     <nav className="sticky top-0 z-40 w-full bg-card/80 backdrop-blur-lg border-b border-border shadow-soft">
@@ -40,12 +49,12 @@ const Navbar = () => {
               Browse
             </Link>
           )}
-          <a
-            href="#contact"
+          <button
+            onClick={handleContactClick}
             className="text-sm font-medium text-foreground hover:text-primary transition-smooth"
           >
             Contact
-          </a>
+          </button>
           
           {user ? (
             <Button variant="ghost" size="sm" onClick={logout} className="gap-2">
