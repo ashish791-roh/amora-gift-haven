@@ -134,7 +134,7 @@ const Home = () => {
                     type="button"
                     variant="premium"
                     className="flex-1 gap-2"
-                    onClick={() => window.open('https://wa.me/918168080791', '_blank')}
+                    onClick={() => window.open(getWhatsAppUrl("918168080791"), '_blank')}
                   >
                     <MessageCircle className="h-4 w-4" />
                     WhatsApp Us
