@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Gift className="h-6 w-6 text-primary" />
-              <h3 className="text-xl font-serif font-bold text-foreground">Amora Gifts</h3>
+              <h3 className="text-xl font-serif font-bold text-foreground">Tashya Gifts</h3>
             </div>
             <p className="text-muted-foreground">
               Curate Moments, Gift Memories. Handcrafted hampers for every special occasion.
@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-8 pt-8 border-t border-border text-center text-muted-foreground text-sm">
-          © {new Date().getFullYear()} Amora Gifts. All rights reserved.
+          © {new Date().getFullYear()} Tashya Gifts. All rights reserved.
         </div>
       </div>
     </footer>
