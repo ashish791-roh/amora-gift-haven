@@ -1,5 +1,5 @@
 import { Instagram, MessageCircle, Gift } from 'lucide-react';
-import { getWhatsAppUrl } from '@/lib/Utils.ts';
+import { getWhatsAppUrl } from '@/lib/Utils';
 
 const Footer = () => {
   return (
