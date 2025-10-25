@@ -20,9 +20,9 @@ const Navbar = () => {
     <nav className="sticky top-0 z-40 w-full bg-card/80 backdrop-blur-lg border-b border-border shadow-soft">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3 hover-scale">
-          <img src={logo} alt="Amora Gifts" className="h-10 w-10" />
+          <img src={logo} alt="Tashya Gifts" className="h-10 w-10" />
           <span className="text-2xl font-serif font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            Amora Gifts
+            Tashya Gifts
           </span>
         </Link>
 
