@@ -33,9 +33,9 @@ const Login = () => {
       <Card className="w-full max-w-md shadow-glow animate-scale-in">
         <CardHeader className="text-center">
           <div className="flex justify-center mb-4">
-            <img src={logo} alt="Amora Gifts" className="h-16 w-16" />
+            <img src={logo} alt="Tashya Gifts" className="h-16 w-16" />
           </div>
-          <CardTitle className="text-3xl font-serif">Welcome to Amora Gifts</CardTitle>
+          <CardTitle className="text-3xl font-serif">Welcome to Tashya Gifts</CardTitle>
           <CardDescription>Sign in to continue</CardDescription>
         </CardHeader>
         <CardContent>
