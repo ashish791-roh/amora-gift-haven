@@ -22,11 +22,11 @@ const LoadingScreen = ({ onLoadingComplete }: { onLoadingComplete: () => void })
       <div className="flex flex-col items-center gap-6 animate-fade-in">
         <img
           src={logo}
-          alt="Amora Gifts"
+          alt="Tashya Gifts"
           className="h-24 w-24 animate-scale-in"
         />
         <h1 className="text-4xl font-serif text-primary-foreground animate-fade-in">
-          Amora Gifts
+          Tashya Gifts
         </h1>
         <div className="flex gap-2">
           <div className="h-2 w-2 rounded-full bg-primary-foreground animate-pulse" />
