@@ -21,7 +21,7 @@ const HamperModal = ({ hamper, open, onOpenChange }: HamperModalProps) => {
   if (!hamper) return null;
 
   const handleWhatsAppShare = () => {
-    const message = `Check out this beautiful hamper from Amora Gifts: ${hamper.name} - £${hamper.price}`;
+    const message = `Check out this beautiful hamper from Tashya Gifts: ${hamper.name} - £${hamper.price}`;
     const url = `https://wa.me/?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   };
